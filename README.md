@@ -42,6 +42,7 @@ Each profile is a JSON file conforming to the `AgentProfile` schema:
 | `toolConfig` | object | Tool permissions and configuration |
 | `modelPreferences` | object | Model requirements (context window, capabilities) |
 | `settingsOverrides` | object | Operational settings (max iterations, timeouts) |
+| `translations` | object | Per-locale translation overlays (see below) |
 | `tags` | string[] | Searchable tags |
 
 ## Index Format
@@ -66,6 +67,28 @@ Each profile is a JSON file conforming to the `AgentProfile` schema:
   ]
 }
 ```
+
+## Translations
+
+Profiles support multilingual content via the `translations` field. Base fields (`name`, `description`, `systemPrompt`, `instructions`) remain in English, with per-locale overrides:
+
+```json
+{
+  "translations": {
+    "ko": {
+      "name": "Python 전문가",
+      "description": "관용적인 Python, 타입 힌트에 특화된 시니어 Python 개발자입니다."
+    },
+    "ja": {
+      "name": "Pythonエキスパート"
+    }
+  }
+}
+```
+
+- Locale keys use IETF BCP 47 format (`"ko"`, `"ja"`, `"zh-Hans"`)
+- All translation fields are optional — missing fields fall back to the English base
+- At minimum, provide `name` and `description` for each locale
 
 ## Contributing
 

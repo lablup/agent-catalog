@@ -34,6 +34,12 @@
     "contextCompressionThreshold": null,
     "allowedPaths": null
   },
+  "translations": {
+    "ko": {
+      "name": "Rust 개발자",
+      "description": "소유권 안전성, 제로 비용 추상화 패턴에 집중하는 Rust 전문가입니다. async Tokio, thiserror/anyhow를 활용한 에러 처리, 관용적 Rust API 설계에 능합니다."
+    }
+  },
   "tags": ["rust", "systems-programming", "async", "tokio", "ownership", "performance"],
   "isBuiltin": false,
   "isCommunity": true,

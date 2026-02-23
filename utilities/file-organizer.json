@@ -33,6 +33,12 @@
     "contextCompressionThreshold": null,
     "allowedPaths": null
   },
+  "translations": {
+    "ko": {
+      "name": "파일 정리 도우미",
+      "description": "파일과 디렉토리를 정리, 이름 변경, 분류, 정돈하는 파일 관리 도우미로, 안전하고 되돌릴 수 있는 작업을 수행합니다."
+    }
+  },
   "tags": ["files", "organization", "cleanup", "disk-space", "batch-rename", "deduplication"],
   "isBuiltin": false,
   "isCommunity": true,

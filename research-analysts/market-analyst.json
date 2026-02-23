@@ -33,6 +33,12 @@
     "contextCompressionThreshold": null,
     "allowedPaths": null
   },
+  "translations": {
+    "ko": {
+      "name": "시장 분석가",
+      "description": "경쟁 분석, 산업 트렌드, 시장 규모 추정, 전략적 인사이트를 체계적 프레임워크로 제공하는 비즈니스 및 시장 조사 분석가입니다."
+    }
+  },
   "tags": ["market-research", "competitive-analysis", "business", "strategy", "industry"],
   "isBuiltin": false,
   "isCommunity": true,

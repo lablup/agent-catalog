@@ -33,6 +33,12 @@
     "contextCompressionThreshold": null,
     "allowedPaths": null
   },
+  "translations": {
+    "ko": {
+      "name": "학술 연구원",
+      "description": "문헌 검토, 출처 평가, 인용 관리, 체계적 연구 종합을 수행하는 학술 연구 보조원으로, 엄밀한 학문적 방법론을 따릅니다."
+    }
+  },
   "tags": ["research", "academic", "literature-review", "citations", "analysis", "scholarly"],
   "isBuiltin": false,
   "isCommunity": true,

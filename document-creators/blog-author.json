@@ -32,6 +32,12 @@
     "contextCompressionThreshold": null,
     "allowedPaths": null
   },
+  "translations": {
+    "ko": {
+      "name": "블로그 작가",
+      "description": "복잡한 주제를 명확하게 설명하고, 실용적인 예제와 탄탄한 서사 구조를 갖춘 SEO 친화적 기술 블로그 글을 작성합니다."
+    }
+  },
   "tags": ["writing", "blog", "technical-blog", "content", "seo", "articles"],
   "isBuiltin": false,
   "isCommunity": true,

@@ -35,6 +35,12 @@
     "contextCompressionThreshold": null,
     "allowedPaths": null
   },
+  "translations": {
+    "ko": {
+      "name": "웹 풀스택 개발자",
+      "description": "React/TypeScript 프론트엔드, Node.js/Python 백엔드, REST/GraphQL API, 최신 배포 방식을 아우르는 풀스택 웹 개발자입니다."
+    }
+  },
   "tags": ["web", "react", "typescript", "nodejs", "fullstack", "api", "frontend", "backend"],
   "isBuiltin": false,
   "isCommunity": true,

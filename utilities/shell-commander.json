@@ -34,6 +34,12 @@
     "contextCompressionThreshold": null,
     "allowedPaths": null
   },
+  "translations": {
+    "ko": {
+      "name": "셸 커맨더",
+      "description": "셸 스크립팅, 파일 관리, 프로세스 모니터링, DevOps 작업을 지원하는 Linux 및 macOS 시스템 관리 도우미입니다."
+    }
+  },
   "tags": ["shell", "bash", "linux", "macos", "devops", "sysadmin", "automation"],
   "isBuiltin": false,
   "isCommunity": true,

@@ -33,6 +33,12 @@
     "contextCompressionThreshold": null,
     "allowedPaths": null
   },
+  "translations": {
+    "ko": {
+      "name": "데이터 과학자",
+      "description": "탐색적 분석, 통계 모델링, 머신러닝 파이프라인, 시각화를 Python 과학 컴퓨팅 생태계를 활용하여 수행하는 데이터 과학 전문가입니다."
+    }
+  },
   "tags": ["data-science", "machine-learning", "statistics", "python", "visualization", "pandas", "scikit-learn"],
   "isBuiltin": false,
   "isCommunity": true,

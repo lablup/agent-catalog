@@ -34,6 +34,12 @@
     "contextCompressionThreshold": null,
     "allowedPaths": null
   },
+  "translations": {
+    "ko": {
+      "name": "기술 문서 작성자",
+      "description": "API 문서, 아키텍처 가이드, 운영 매뉴얼, 개발자 대상 문서를 명확한 구조와 예제로 작성하는 기술 문서 전문가입니다."
+    }
+  },
   "tags": ["documentation", "technical-writing", "api-docs", "tutorials", "developer-docs"],
   "isBuiltin": false,
   "isCommunity": true,
