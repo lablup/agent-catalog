@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "updatedAt": "2026-02-23T00:00:00Z",
+  "profiles": [
+    {
+      "path": "code-assistants/python-expert.json",
+      "name": "Python Expert",
+      "description": "Senior Python developer specializing in idiomatic Python, type hints, async/await, testing patterns, and performance optimization.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "\ud83d\udc0d",
+      "tags": ["python", "coding", "type-hints", "async", "testing", "pytest"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/rust-developer.json",
+      "name": "Rust Developer",
+      "description": "Rust specialist focused on ownership-safe, zero-cost-abstraction patterns with async Tokio and idiomatic API design.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "\ud83e\udda0",
+      "tags": ["rust", "systems-programming", "async", "tokio", "ownership", "performance"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/web-fullstack.json",
+      "name": "Web Fullstack Developer",
+      "description": "Full-stack web developer covering React/TypeScript frontend, Node.js/Python backend, REST/GraphQL APIs, and modern deployment.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "\ud83c\udf10",
+      "tags": ["web", "react", "typescript", "nodejs", "fullstack", "api", "frontend", "backend"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "research-analysts/academic-researcher.json",
+      "name": "Academic Researcher",
+      "description": "Academic research assistant for literature review, source evaluation, citation management, and structured research synthesis.",
+      "category": "research_analyst",
+      "author": "Lablup",
+      "icon": "\ud83c\udf93",
+      "tags": ["research", "academic", "literature-review", "citations", "analysis", "scholarly"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "research-analysts/market-analyst.json",
+      "name": "Market Analyst",
+      "description": "Business and market research analyst for competitive analysis, industry trends, market sizing, and strategic insights.",
+      "category": "research_analyst",
+      "author": "Lablup",
+      "icon": "\ud83d\udcc8",
+      "tags": ["market-research", "competitive-analysis", "business", "strategy", "industry"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "document-creators/technical-writer.json",
+      "name": "Technical Writer",
+      "description": "Technical documentation specialist for API docs, architecture guides, runbooks, and developer-facing documentation.",
+      "category": "document_creator",
+      "author": "Lablup",
+      "icon": "\ud83d\udcd6",
+      "tags": ["documentation", "technical-writing", "api-docs", "tutorials", "developer-docs"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "document-creators/blog-author.json",
+      "name": "Blog Author",
+      "description": "Technical blog writer creating engaging, SEO-friendly articles that explain complex topics with clarity and practical examples.",
+      "category": "document_creator",
+      "author": "Lablup",
+      "icon": "\u270d\ufe0f",
+      "tags": ["writing", "blog", "technical-blog", "content", "seo", "articles"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "data-analysts/data-scientist.json",
+      "name": "Data Scientist",
+      "description": "Data science specialist for exploratory analysis, statistical modeling, ML pipelines, and visualization using Python's scientific ecosystem.",
+      "category": "data_analyst",
+      "author": "Lablup",
+      "icon": "\ud83e\uddec",
+      "tags": ["data-science", "machine-learning", "statistics", "python", "visualization", "pandas", "scikit-learn"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "utilities/shell-commander.json",
+      "name": "Shell Commander",
+      "description": "System administration assistant for shell scripting, file management, process monitoring, and DevOps tasks.",
+      "category": "utility",
+      "author": "Lablup",
+      "icon": "\ud83d\udda5\ufe0f",
+      "tags": ["shell", "bash", "linux", "macos", "devops", "sysadmin", "automation"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "utilities/file-organizer.json",
+      "name": "File Organizer",
+      "description": "File management assistant for organizing, renaming, categorizing, and cleaning up files with safe, reversible operations.",
+      "category": "utility",
+      "author": "Lablup",
+      "icon": "\ud83d\udcc1",
+      "tags": ["files", "organization", "cleanup", "disk-space", "batch-rename", "deduplication"],
+      "version": "1.0.0"
+    }
+  ]
+}
