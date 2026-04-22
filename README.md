@@ -11,24 +11,54 @@ agent-catalog/
 │   ├── python-expert.json
 │   ├── rust-developer.json
 │   ├── web-fullstack.json
+│   ├── typescript-expert.json
+│   ├── go-developer.json
+│   ├── java-developer.json
+│   ├── ios-developer.json
+│   ├── android-developer.json
+│   ├── frontend-specialist.json
+│   ├── devops-engineer.json
+│   ├── security-engineer.json
+│   ├── ml-engineer.json
+│   ├── data-engineer.json
+│   ├── api-designer.json
 │   ├── code-reviewer.json
 │   └── sql-expert.json
 ├── research-analysts/                  # Research, analysis, and synthesis
 │   ├── academic-researcher.json
-│   └── market-analyst.json
+│   ├── market-analyst.json
+│   ├── scientific-researcher.json
+│   ├── legal-researcher.json
+│   └── patent-researcher.json
 ├── document-creators/                  # Documentation and content creation
 │   ├── technical-writer.json
-│   └── blog-author.json
+│   ├── blog-author.json
+│   ├── marketing-copywriter.json
+│   ├── ux-copywriter.json
+│   └── grant-proposal-writer.json
 ├── data-analysts/                      # Data analysis and visualization
-│   └── data-scientist.json
+│   ├── data-scientist.json
+│   ├── bi-analyst.json
+│   ├── ab-testing-analyst.json
+│   └── visualization-designer.json
 ├── utilities/                          # General-purpose utility agents
 │   ├── shell-commander.json
-│   └── file-organizer.json
+│   ├── file-organizer.json
+│   ├── git-workflow-manager.json
+│   ├── translation-assistant.json
+│   ├── meeting-notes-summarizer.json
+│   ├── regex-helper.json
+│   └── email-drafter.json
 └── custom-agents/                      # Specialized and domain-specific agents
     ├── socratic-tutor.json
     ├── interview-coach.json
     ├── product-manager.json
-    └── architecture-advisor.json
+    ├── architecture-advisor.json
+    ├── rubber-duck-debugger.json
+    ├── prompt-engineer.json
+    ├── career-coach.json
+    ├── creative-writing-assistant.json
+    └── language-learning-coach.json
 ```
 
 ## Profile Format

@@ -18,7 +18,7 @@
       "description": "Rust specialist focused on ownership-safe, zero-cost-abstraction patterns with async Tokio and idiomatic API design.",
       "category": "code_assistant",
       "author": "Lablup",
-      "icon": "\ud83e\uda80",
+      "icon": "🦀",
       "tags": ["rust", "systems-programming", "async", "tokio", "ownership", "performance"],
       "version": "1.0.0"
     },
@@ -30,6 +30,116 @@
       "author": "Lablup",
       "icon": "🌐",
       "tags": ["web", "react", "typescript", "nodejs", "fullstack", "api", "frontend", "backend"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/typescript-expert.json",
+      "name": "TypeScript Expert",
+      "description": "TypeScript specialist focused on strict type safety, advanced generics, and idiomatic patterns across frontend and Node.js backends.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "🔷",
+      "tags": ["typescript", "javascript", "type-safety", "generics", "nodejs", "frontend"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/go-developer.json",
+      "name": "Go Developer",
+      "description": "Go specialist for writing simple, concurrent, production-grade services with idiomatic patterns and standard library mastery.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "🐹",
+      "tags": ["go", "golang", "concurrency", "goroutines", "backend", "systems", "grpc"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/java-developer.json",
+      "name": "Java Developer",
+      "description": "Enterprise Java developer for Spring Boot, JVM tuning, reactive programming, and modern Java (21+).",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "☕",
+      "tags": ["java", "spring", "spring-boot", "jvm", "backend", "enterprise", "reactive"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/ios-developer.json",
+      "name": "iOS Developer",
+      "description": "iOS specialist for Swift, SwiftUI, UIKit, and Apple platform best practices with modern concurrency and accessibility.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "📱",
+      "tags": ["ios", "swift", "swiftui", "uikit", "apple", "mobile", "xcode"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/android-developer.json",
+      "name": "Android Developer",
+      "description": "Android specialist for Kotlin, Jetpack Compose, modern architecture components, and Play Store-ready apps.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "🤖",
+      "tags": ["android", "kotlin", "jetpack-compose", "mobile", "coroutines", "hilt", "room"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/frontend-specialist.json",
+      "name": "Frontend Specialist",
+      "description": "Frontend engineer focused on UI craft, performance, accessibility, and design-system work across React, Vue, and Web Components.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "🎨",
+      "tags": ["frontend", "react", "vue", "web-components", "accessibility", "performance", "design-system", "css"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/devops-engineer.json",
+      "name": "DevOps Engineer",
+      "description": "DevOps and SRE specialist for CI/CD, Kubernetes, infrastructure-as-code, observability, and reliable deployments.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "☸️",
+      "tags": ["devops", "sre", "kubernetes", "docker", "ci-cd", "terraform", "observability", "cloud"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/security-engineer.json",
+      "name": "Security Engineer",
+      "description": "Application security specialist for threat modeling, secure coding review, and vulnerability assessment. Defensive and authorized work only.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "🔐",
+      "tags": ["security", "appsec", "threat-modeling", "vulnerability", "owasp", "secure-coding", "defensive"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/ml-engineer.json",
+      "name": "ML Engineer",
+      "description": "Machine learning engineer for training pipelines, model deployment, MLOps, and production ML systems.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "🧠",
+      "tags": ["machine-learning", "mlops", "pytorch", "deep-learning", "llm", "inference", "training", "deployment"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/data-engineer.json",
+      "name": "Data Engineer",
+      "description": "Data engineering specialist for ETL/ELT pipelines, data lakes, warehouses, streaming, and orchestration.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "🛠️",
+      "tags": ["data-engineering", "etl", "elt", "spark", "dbt", "airflow", "kafka", "lakehouse", "pipelines"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/api-designer.json",
+      "name": "API Designer",
+      "description": "API design specialist for REST, GraphQL, and gRPC with focus on schema evolution, consistency, and developer experience.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "🔌",
+      "tags": ["api-design", "rest", "graphql", "grpc", "openapi", "schema", "versioning", "contracts"],
       "version": "1.0.0"
     },
     {
@@ -73,6 +183,36 @@
       "version": "1.0.0"
     },
     {
+      "path": "research-analysts/scientific-researcher.json",
+      "name": "Scientific Researcher",
+      "description": "STEM research assistant for hypothesis formulation, experimental design, statistical analysis, and scientific writing.",
+      "category": "research_analyst",
+      "author": "Lablup",
+      "icon": "🔬",
+      "tags": ["research", "science", "stem", "hypothesis", "experiment-design", "statistics", "reproducibility"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "research-analysts/legal-researcher.json",
+      "name": "Legal Researcher",
+      "description": "Legal research assistant for statute navigation, case law summaries, and compliance overviews. Provides information — not legal advice.",
+      "category": "research_analyst",
+      "author": "Lablup",
+      "icon": "⚖️",
+      "tags": ["legal", "law", "research", "compliance", "case-law", "statutes", "regulations"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "research-analysts/patent-researcher.json",
+      "name": "Patent Researcher",
+      "description": "Patent research assistant for prior art searches, patent landscape analysis, and claim interpretation.",
+      "category": "research_analyst",
+      "author": "Lablup",
+      "icon": "📜",
+      "tags": ["patent", "prior-art", "ip", "research", "landscape", "claim-analysis", "uspto", "epo", "kipo"],
+      "version": "1.0.0"
+    },
+    {
       "path": "document-creators/technical-writer.json",
       "name": "Technical Writer",
       "description": "Technical documentation specialist for API docs, architecture guides, runbooks, and developer-facing documentation.",
@@ -93,6 +233,36 @@
       "version": "1.0.0"
     },
     {
+      "path": "document-creators/marketing-copywriter.json",
+      "name": "Marketing Copywriter",
+      "description": "Marketing copywriter for landing pages, email campaigns, ads, and product launches with persuasive, on-brand copy.",
+      "category": "document_creator",
+      "author": "Lablup",
+      "icon": "📣",
+      "tags": ["marketing", "copywriting", "conversion", "landing-page", "email", "advertising", "branding"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "document-creators/ux-copywriter.json",
+      "name": "UX Copywriter",
+      "description": "UX writer for interface microcopy, error messages, empty states, and onboarding flows.",
+      "category": "document_creator",
+      "author": "Lablup",
+      "icon": "🪧",
+      "tags": ["ux-writing", "microcopy", "interface", "content-design", "localization", "accessibility"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "document-creators/grant-proposal-writer.json",
+      "name": "Grant Proposal Writer",
+      "description": "Grant writer for research, nonprofit, and innovation funding with structured, funder-aligned proposals.",
+      "category": "document_creator",
+      "author": "Lablup",
+      "icon": "📝",
+      "tags": ["grant-writing", "proposal", "research-funding", "nonprofit", "nih", "nsf", "nrf", "sbir"],
+      "version": "1.0.0"
+    },
+    {
       "path": "data-analysts/data-scientist.json",
       "name": "Data Scientist",
       "description": "Data science specialist for exploratory analysis, statistical modeling, ML pipelines, and visualization using Python's scientific ecosystem.",
@@ -100,6 +270,36 @@
       "author": "Lablup",
       "icon": "🧬",
       "tags": ["data-science", "machine-learning", "statistics", "python", "visualization", "pandas", "scikit-learn"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "data-analysts/bi-analyst.json",
+      "name": "BI Analyst",
+      "description": "Business intelligence analyst for SQL-first exploratory analysis, dashboards, KPIs, and cross-functional reporting.",
+      "category": "data_analyst",
+      "author": "Lablup",
+      "icon": "📊",
+      "tags": ["bi", "business-intelligence", "sql", "kpi", "dashboard", "reporting", "analytics", "metrics"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "data-analysts/ab-testing-analyst.json",
+      "name": "A/B Testing Analyst",
+      "description": "Experimentation analyst for A/B test design, analysis, and interpretation with power analysis and multiple-testing corrections.",
+      "category": "data_analyst",
+      "author": "Lablup",
+      "icon": "🧪",
+      "tags": ["ab-testing", "experimentation", "causal-inference", "statistics", "hypothesis-testing", "analytics"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "data-analysts/visualization-designer.json",
+      "name": "Visualization Designer",
+      "description": "Data visualization specialist for charts, dashboards, and explanatory graphics combining statistical graphics and design craft.",
+      "category": "data_analyst",
+      "author": "Lablup",
+      "icon": "📉",
+      "tags": ["visualization", "charts", "dashboards", "data-viz", "design", "matplotlib", "d3", "tableau"],
       "version": "1.0.0"
     },
     {
@@ -123,6 +323,56 @@
       "version": "1.0.0"
     },
     {
+      "path": "utilities/git-workflow-manager.json",
+      "name": "Git Workflow Manager",
+      "description": "Git expert for branch strategy, rebase workflows, conflict resolution, and repository hygiene.",
+      "category": "utility",
+      "author": "Lablup",
+      "icon": "🌿",
+      "tags": ["git", "version-control", "branching", "rebase", "merge", "workflow", "conflict-resolution"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "utilities/translation-assistant.json",
+      "name": "Translation Assistant",
+      "description": "Translation assistant for technical documentation, UI strings, and general content across major languages.",
+      "category": "utility",
+      "author": "Lablup",
+      "icon": "🌏",
+      "tags": ["translation", "localization", "i18n", "l10n", "korean", "japanese", "chinese", "english"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "utilities/meeting-notes-summarizer.json",
+      "name": "Meeting Notes Summarizer",
+      "description": "Meeting notes specialist that turns raw transcripts or bullet points into structured summaries with decisions and action items.",
+      "category": "utility",
+      "author": "Lablup",
+      "icon": "📝",
+      "tags": ["meeting-notes", "summary", "action-items", "productivity", "decisions", "minutes"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "utilities/regex-helper.json",
+      "name": "Regex Helper",
+      "description": "Regular expression specialist for authoring, explaining, testing, and converting regex patterns across flavors.",
+      "category": "utility",
+      "author": "Lablup",
+      "icon": "🔍",
+      "tags": ["regex", "regular-expressions", "pattern-matching", "text-processing", "pcre", "posix"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "utilities/email-drafter.json",
+      "name": "Email Drafter",
+      "description": "Email assistant for professional correspondence, follow-ups, difficult conversations, and concise replies.",
+      "category": "utility",
+      "author": "Lablup",
+      "icon": "✉️",
+      "tags": ["email", "writing", "communication", "business", "correspondence", "productivity"],
+      "version": "1.0.0"
+    },
+    {
       "path": "custom-agents/socratic-tutor.json",
       "name": "Socratic Tutor",
       "description": "Teaching assistant that guides learners to answers through thoughtful questions rather than direct explanations.",
@@ -135,7 +385,7 @@
     {
       "path": "custom-agents/interview-coach.json",
       "name": "Interview Coach",
-      "description": "Interview preparation partner for technical, behavioral, and system design interviews with realistic mock sessions and delivery coaching.",
+      "description": "Interview preparation partner for technical, behavioral, and system design interviews with realistic mock sessions.",
       "category": "custom_agent",
       "author": "Lablup",
       "icon": "🎙️",
@@ -145,7 +395,7 @@
     {
       "path": "custom-agents/product-manager.json",
       "name": "Product Manager",
-      "description": "Product management partner for PRDs, roadmaps, prioritization, and user research synthesis with clear success metrics.",
+      "description": "Product management partner for PRDs, roadmaps, prioritization, and user research synthesis.",
       "category": "custom_agent",
       "author": "Lablup",
       "icon": "📋",
@@ -160,6 +410,56 @@
       "author": "Lablup",
       "icon": "🏛️",
       "tags": ["architecture", "system-design", "adr", "tradeoffs", "microservices", "distributed-systems", "scalability"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "custom-agents/rubber-duck-debugger.json",
+      "name": "Rubber Duck Debugger",
+      "description": "Conversation partner for debugging and thinking out loud. Asks clarifying questions and helps you find the bug yourself.",
+      "category": "custom_agent",
+      "author": "Lablup",
+      "icon": "🦆",
+      "tags": ["debugging", "rubber-duck", "thinking-partner", "problem-solving", "programming"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "custom-agents/prompt-engineer.json",
+      "name": "Prompt Engineer",
+      "description": "Prompt engineering specialist for LLM application design, prompt optimization, evaluation, and systematic prompt testing.",
+      "category": "custom_agent",
+      "author": "Lablup",
+      "icon": "💬",
+      "tags": ["prompt-engineering", "llm", "prompt-design", "evaluation", "claude", "gpt", "ai"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "custom-agents/career-coach.json",
+      "name": "Career Coach",
+      "description": "Career coach for career planning, role transitions, performance conversations, and professional growth.",
+      "category": "custom_agent",
+      "author": "Lablup",
+      "icon": "🧭",
+      "tags": ["career", "coaching", "professional-development", "leadership", "negotiation", "growth"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "custom-agents/creative-writing-assistant.json",
+      "name": "Creative Writing Assistant",
+      "description": "Writing partner for fiction, essays, and creative non-fiction. Helps with craft without homogenizing the author's style.",
+      "category": "custom_agent",
+      "author": "Lablup",
+      "icon": "✒️",
+      "tags": ["creative-writing", "fiction", "essay", "storytelling", "craft", "editing", "narrative"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "custom-agents/language-learning-coach.json",
+      "name": "Language Learning Coach",
+      "description": "Language tutor for learners at any level. Adapts to target language, proficiency, and goal.",
+      "category": "custom_agent",
+      "author": "Lablup",
+      "icon": "🗣️",
+      "tags": ["language-learning", "tutor", "korean", "japanese", "english", "spanish", "chinese", "education"],
       "version": "1.0.0"
     }
   ]
