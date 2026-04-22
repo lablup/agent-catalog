@@ -10,7 +10,9 @@ agent-catalog/
 ├── code-assistants/                    # Code writing, review, and debugging
 │   ├── python-expert.json
 │   ├── rust-developer.json
-│   └── web-fullstack.json
+│   ├── web-fullstack.json
+│   ├── code-reviewer.json
+│   └── sql-expert.json
 ├── research-analysts/                  # Research, analysis, and synthesis
 │   ├── academic-researcher.json
 │   └── market-analyst.json
@@ -19,9 +21,14 @@ agent-catalog/
 │   └── blog-author.json
 ├── data-analysts/                      # Data analysis and visualization
 │   └── data-scientist.json
-└── utilities/                          # General-purpose utility agents
-    ├── shell-commander.json
-    └── file-organizer.json
+├── utilities/                          # General-purpose utility agents
+│   ├── shell-commander.json
+│   └── file-organizer.json
+└── custom-agents/                      # Specialized and domain-specific agents
+    ├── socratic-tutor.json
+    ├── interview-coach.json
+    ├── product-manager.json
+    └── architecture-advisor.json
 ```
 
 ## Profile Format

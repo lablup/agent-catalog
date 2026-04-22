@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-23T00:00:00Z",
+  "updatedAt": "2026-04-22T00:00:00Z",
   "profiles": [
     {
       "path": "code-assistants/python-expert.json",
@@ -8,7 +8,7 @@
       "description": "Senior Python developer specializing in idiomatic Python, type hints, async/await, testing patterns, and performance optimization.",
       "category": "code_assistant",
       "author": "Lablup",
-      "icon": "\ud83d\udc0d",
+      "icon": "🐍",
       "tags": ["python", "coding", "type-hints", "async", "testing", "pytest"],
       "version": "1.0.0"
     },
@@ -18,7 +18,7 @@
       "description": "Rust specialist focused on ownership-safe, zero-cost-abstraction patterns with async Tokio and idiomatic API design.",
       "category": "code_assistant",
       "author": "Lablup",
-      "icon": "\ud83e\udda0",
+      "icon": "\ud83e\uda80",
       "tags": ["rust", "systems-programming", "async", "tokio", "ownership", "performance"],
       "version": "1.0.0"
     },
@@ -28,8 +28,28 @@
       "description": "Full-stack web developer covering React/TypeScript frontend, Node.js/Python backend, REST/GraphQL APIs, and modern deployment.",
       "category": "code_assistant",
       "author": "Lablup",
-      "icon": "\ud83c\udf10",
+      "icon": "🌐",
       "tags": ["web", "react", "typescript", "nodejs", "fullstack", "api", "frontend", "backend"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/code-reviewer.json",
+      "name": "Code Reviewer",
+      "description": "Language-agnostic code review specialist focused on correctness, security, maintainability, and performance with actionable, prioritized feedback.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "👀",
+      "tags": ["code-review", "quality", "security", "maintainability", "best-practices", "mentoring"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "code-assistants/sql-expert.json",
+      "name": "SQL Expert",
+      "description": "Database specialist for SQL authoring, query optimization, schema design, and migrations across PostgreSQL, MySQL, SQL Server, and SQLite.",
+      "category": "code_assistant",
+      "author": "Lablup",
+      "icon": "🗄️",
+      "tags": ["sql", "database", "postgresql", "mysql", "query-optimization", "schema-design", "indexing", "migrations"],
       "version": "1.0.0"
     },
     {
@@ -38,7 +58,7 @@
       "description": "Academic research assistant for literature review, source evaluation, citation management, and structured research synthesis.",
       "category": "research_analyst",
       "author": "Lablup",
-      "icon": "\ud83c\udf93",
+      "icon": "🎓",
       "tags": ["research", "academic", "literature-review", "citations", "analysis", "scholarly"],
       "version": "1.0.0"
     },
@@ -48,7 +68,7 @@
       "description": "Business and market research analyst for competitive analysis, industry trends, market sizing, and strategic insights.",
       "category": "research_analyst",
       "author": "Lablup",
-      "icon": "\ud83d\udcc8",
+      "icon": "📈",
       "tags": ["market-research", "competitive-analysis", "business", "strategy", "industry"],
       "version": "1.0.0"
     },
@@ -58,7 +78,7 @@
       "description": "Technical documentation specialist for API docs, architecture guides, runbooks, and developer-facing documentation.",
       "category": "document_creator",
       "author": "Lablup",
-      "icon": "\ud83d\udcd6",
+      "icon": "📖",
       "tags": ["documentation", "technical-writing", "api-docs", "tutorials", "developer-docs"],
       "version": "1.0.0"
     },
@@ -68,7 +88,7 @@
       "description": "Technical blog writer creating engaging, SEO-friendly articles that explain complex topics with clarity and practical examples.",
       "category": "document_creator",
       "author": "Lablup",
-      "icon": "\u270d\ufe0f",
+      "icon": "✍️",
       "tags": ["writing", "blog", "technical-blog", "content", "seo", "articles"],
       "version": "1.0.0"
     },
@@ -78,7 +98,7 @@
       "description": "Data science specialist for exploratory analysis, statistical modeling, ML pipelines, and visualization using Python's scientific ecosystem.",
       "category": "data_analyst",
       "author": "Lablup",
-      "icon": "\ud83e\uddec",
+      "icon": "🧬",
       "tags": ["data-science", "machine-learning", "statistics", "python", "visualization", "pandas", "scikit-learn"],
       "version": "1.0.0"
     },
@@ -88,7 +108,7 @@
       "description": "System administration assistant for shell scripting, file management, process monitoring, and DevOps tasks.",
       "category": "utility",
       "author": "Lablup",
-      "icon": "\ud83d\udda5\ufe0f",
+      "icon": "🖥️",
       "tags": ["shell", "bash", "linux", "macos", "devops", "sysadmin", "automation"],
       "version": "1.0.0"
     },
@@ -98,8 +118,48 @@
       "description": "File management assistant for organizing, renaming, categorizing, and cleaning up files with safe, reversible operations.",
       "category": "utility",
       "author": "Lablup",
-      "icon": "\ud83d\udcc1",
+      "icon": "📁",
       "tags": ["files", "organization", "cleanup", "disk-space", "batch-rename", "deduplication"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "custom-agents/socratic-tutor.json",
+      "name": "Socratic Tutor",
+      "description": "Teaching assistant that guides learners to answers through thoughtful questions rather than direct explanations.",
+      "category": "custom_agent",
+      "author": "Lablup",
+      "icon": "🦉",
+      "tags": ["teaching", "learning", "socratic", "education", "tutoring", "inquiry-based"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "custom-agents/interview-coach.json",
+      "name": "Interview Coach",
+      "description": "Interview preparation partner for technical, behavioral, and system design interviews with realistic mock sessions and delivery coaching.",
+      "category": "custom_agent",
+      "author": "Lablup",
+      "icon": "🎙️",
+      "tags": ["interview", "career", "coaching", "behavioral", "system-design", "mock-interview", "preparation"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "custom-agents/product-manager.json",
+      "name": "Product Manager",
+      "description": "Product management partner for PRDs, roadmaps, prioritization, and user research synthesis with clear success metrics.",
+      "category": "custom_agent",
+      "author": "Lablup",
+      "icon": "📋",
+      "tags": ["product-management", "prd", "roadmap", "prioritization", "strategy", "user-research", "specs"],
+      "version": "1.0.0"
+    },
+    {
+      "path": "custom-agents/architecture-advisor.json",
+      "name": "Architecture Advisor",
+      "description": "Software architecture sounding board for system design decisions, tradeoff analysis, and ADR authoring.",
+      "category": "custom_agent",
+      "author": "Lablup",
+      "icon": "🏛️",
+      "tags": ["architecture", "system-design", "adr", "tradeoffs", "microservices", "distributed-systems", "scalability"],
       "version": "1.0.0"
     }
   ]
